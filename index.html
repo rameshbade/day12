@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html layout</title>
+    <style>
+        table{
+            border-collapse:collapse;
+        
+        }
+        *body
+        {
+            padding:0px;
+            margin:0px;
+        }
+        .ram{
+            background-color: blue;
+        
+    
+        }
+        .teja{
+            background-color:green;
+        }
+        #sevi{
+            background-color: darkmagenta;
+        }
+        #kote{
+            background-color:yellow;
+        }
+        #bhasaka{
+            background-color: aqua;
+        }
+        #prem{
+            background-color:red;
+        }
+        #kohli{
+           height:75px; 
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+ <div id="kohli"><center><h1 style=" color: red; background-color: aqua; margin:0px; padding:20px;"><b>HTML LAYOUT</b></h1></center><br><br></div>
+
+    <table width="100%" border="1px solid balck;">
+        <tr class="ram" height="100">
+           <th colspan="2"><center><h1>HEADER</h1></center></th>
+        </tr>
+        <tr height="100" class="teja">
+            <th colspan="2"><center><h1>NAV BAR</h1></center></th>
+         </tr>
+         <tr height="200" id="sevi">
+            <th><center><h1>SECTION</center></h1></th>
+            <th rowspan="2" height="100" id="kote"><center><h1>ASIDE</h1></center></th>
+         </tr>
+         <tr height="100">
+            <th id="bhasaka"><center><h1>ARTICLE</h1></center></th>
+         </tr>
+         <tr height="100">
+            <th id="prem" colspan="2"><center><h1>FOOTER</h1></center></th>
+         </tr>
+        
+    </table>
+
+    
+    
+</body>
+</html>
